@@ -1,4 +1,4 @@
-use std::{fmt::format, vec};
+use std::vec;
 
 use ksni::{Tray, MenuItem};
 

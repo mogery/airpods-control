@@ -2,7 +2,7 @@ use std::{collections::HashMap, io, sync::Arc, time::Duration};
 
 use aap::{AAPEvent, AAPSocket};
 use bluer::{Adapter, Address, Device, ErrorKind};
-use tokio::sync::{oneshot, Mutex};
+use tokio::sync::Mutex;
 use tray::AirpodsTray;
 
 mod aap;
